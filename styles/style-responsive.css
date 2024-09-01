@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-ligth-purple: #505F98;
+    --color-purple: #37447E;
+    --color-dark-purple: #091133;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --fonts-roboto: "Roboto", sans-serif;
+}
+
+html {
+    font-size: calc(1 * 100vw / 1440);
+}
+
+body{
+    /* background: url(../image/Landing\ Page\ -\ 2.jpg) no-repeat center top / 1440rem auto; */
+    font-size: 35rem;
+    font-family: var(--fonts-roboto);
+    font-optical-sizing: auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-ligth-purple);
+}
+
+@media (max-width: 1800px) {
+    header .warp nav{
+        font-size: 14rem;
+        margin-top: 6rem;
+        margin-left: -228rem;
+    }
+    /* Section hero */
+    h2.title-hero {
+        margin-left: 161rem;
+        margin-top: 259rem;
+        font-size: 50rem;
+        font-weight: 700;
+        line-height: 65rem;
+        letter-spacing: 0.8rem;
+    }
+
+    p.hero-paragrahs {
+        font-size: 18rem;
+        margin-left: 164rem;
+        margin-top: 22rem;
+        line-height: 30rem;
+    }
+    p.hero-paragrahs-2 {
+        font-size: 18rem;
+        margin-left: 163rem;
+        margin-top: 14rem;
+        line-height: 30rem;
+    }
+    
+    .btn-hero {
+        display: flex;
+        margin-left: 161rem;
+        margin-top: 73rem;
+        font-size: 16rem;
+    }
+/* section light-fast-power*/
+
+    h2.title-light-fast-power {
+        font-size: 36rem;
+        margin-left: 167rem;
+        margin-top: 245rem;
+    }
+
+    p.light-fast-power-paragrahs {
+        margin-right: 7rem;
+        line-height: 26rem;
+        margin-top: 23rem;
+        font-size: 16rem;
+        margin-left: 165rem;
+    }
+
+    p.light-fast-power-paragrahs-2 {
+        margin-right: 7rem;
+        line-height: 26rem;
+        margin-top: 10rem;
+        font-size: 16rem;
+        margin-left: 165rem;
+    }
+
+    .container-section-light-fast-power {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+    }
+
+    .image-light-fast-power-1 {
+        margin-left: 165rem;
+        margin-top: 80rem;
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .image-light-fast-power-2{
+        margin-left: 30rem;
+        margin-top: 80rem;
+        width: 36rem;
+        height: 36rem;
+    }
+
+    .title-goes-here{
+        margin-top: 13rem;
+        margin-left: 165rem;
+        font-size: 16rem;
+    }
+
+    .title-goes-here-1{
+        margin-top: 13rem;
+        margin-left: 31rem;
+        font-size: 16rem;
+    }
+
+    .paragrah-goes-here{
+        line-height: 18rem;
+        margin-left: 165rem;
+        margin-top: 12rem;
+        font-size: 12rem;
+    }
+
+    .paragrah-goes-here-1{
+        line-height: 17.5rem;
+        margin-top: 12rem;
+        margin-left: 30rem;
+        font-size: 12rem;
+    }
+
+
+    /* Section ligt-fast-power2 */
+
+    img.img-light-fast-power-2 {
+        margin-top: 225rem;
+        width: 480rem;
+        height: 317rem;
+        margin-left: 191rem;
+    }
+
+
+    .paragrah-light-fast-power-2-1{
+        line-height: 26rem;
+        margin-top: 23rem;
+        font-size: 16rem;
+        margin-left: 106rem;
+    }
+
+    .paragrah-light-fast-power-2-2{
+        margin-top: 10rem;
+        margin-left: 106rem;
+        font-size: 16rem;
+        line-height: 26rem;
+    }
+
+    /* Section ligt-fast-power3 */
+
+    img.img-light-fast-power-3 {
+        margin-top: 216rem;
+        width: 540rem;
+        height: 389rem;
+        margin-left: 161rem;
+    }
+
+    .paragrah-light-fast-power-3-1{
+        line-height: 26rem;
+        margin-top: 24rem;
+        font-size: 16rem;
+        margin-left: 106rem;
+    }
+
+
+    /* Section ligt-fast-power4 */
+
+    img.img-light-fast-power-4 {
+        margin-top: 225rem;
+        width: 445rem;
+        height: 313rem;
+        margin-left: 210rem;
+    }
+
+    .btn-purchase-now{
+        width: 150rem;
+        margin-top: 40rem;
+        margin-left: 106rem;
+        font-size: 14rem;
+        display: inline-block;
+        height: 32rem;
+        text-align: center;
+        background-color: var(--color-dark-purple);
+        color: var(--color-white);
+        transition: 0.3s all ease-in-out;
+    }
+
+    .btn-purchase-now:hover{
+        background-color: white;
+        border: var(--color-dark-purple) solid 2rem;
+        color: var(--color-dark-purple);
+    }
+    /* Section Price */
+    .btn-purchase-now-1{
+        font-size: 14rem;
+        margin-left: 337rem;
+        display: inline-block;
+        width: 189rem;
+        height: 32rem;
+        text-align: center;
+        margin-top: 14rem;
+        background-color: var(--color-dark-purple);
+        color: var(--color-white);
+        transition: 0.3s all ease-in-out;
+    }
+    .btn-purchase-now-1:hover{
+        background-color: white;
+        border: var(--color-dark-purple) solid 2rem;
+        color: var(--color-dark-purple);
+        cursor: pointer;
+    }
+
+    /* Footer */
+
+    .copyrigth{
+        margin-top: 76rem;
+        font-size: 14rem;
+        margin-left: 166rem;
+    }
+
+    .footer-2 nav ul{
+        margin-left: -186rem;
+        display: flex;
+        gap: 61rem;
+        font-size: 14rem;
+        margin-top: 25rem;
+    }
+
+    .icons {
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        margin-top: 23rem;
+        margin-left: 278rem;
+        gap: 30rem;
+    }
+}
+
